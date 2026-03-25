@@ -4,7 +4,7 @@ import { ColorFieldRoot, ColorFieldInput } from 'reka-ui';
 
 <template>
   <ColorFieldRoot data-slot="hello-world">
-    <ColorFieldInput/>
+    <ColorFieldInput data-slot="color-input" />
   </ColorFieldRoot>
 </template>
 
